@@ -40,7 +40,7 @@ First of all, you have to get the source code, **cd** inside the main tree and h
 ```
 aclocal
 autoconf
-automake
+automake --add-missing
 ./configure
 make
 sudo make install
